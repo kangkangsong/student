@@ -1,0 +1,86 @@
+body {
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+@media screen and (min-width: 375px) {
+  font-size: 750%; }
+@media screen and (min-width: 414px) {
+  font-size: 850%; }
+.head {
+  height: .45rem;
+  background: #393A3F;
+  display: -webkit-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .1rem;
+  color: #fff; }
+  .head h2 {
+    font-size: .14rem;
+    line-height: .45rem; }
+
+.content {
+  -webkit-flex: 1; }
+  .content .mark {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative; }
+    .content .mark .box {
+      width: 280px;
+      height: 420px;
+      background: #fff;
+      border-radius: 5px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto; }
+      .content .mark .box .top {
+        height: 100px;
+        text-align: center;
+        line-height: .4rem; }
+        .content .mark .box .top img {
+          width: 120px;
+          height: 40px;
+          margin-top: .3rem; }
+        .content .mark .box .top span {
+          display: block; }
+      .content .mark .box .inp {
+        height: .4rem;
+        padding: 0 .13rem;
+        display: -webkit-flex;
+        position: relative;
+        margin-top: .3rem; }
+        .content .mark .box .inp img {
+          width: 14px;
+          height: 20px;
+          position: absolute;
+          left: 22px;
+          top: 9px; }
+        .content .mark .box .inp input {
+          -webkit-flex: 1;
+          border-left: none;
+          border-right: none;
+          border-top: none;
+          outline: none;
+          border-bottom: 1px solid #838987;
+          padding-left: .3rem; }
+      .content .mark .box .but {
+        height: .38rem;
+        padding: 0 .2rem;
+        display: -webkit-flex;
+        margin-top: .4rem; }
+        .content .mark .box .but button {
+          -webkit-flex: 1;
+          border-width: 0;
+          background: #2FBA77;
+          border-radius: 4px;
+          color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
